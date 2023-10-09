@@ -16,7 +16,6 @@ int main()
 	if (c < -273.15)
 		error("Wrong temperature!!");
 
-
 	double k = ctok(c); // convert temperature
 	cout << k << '/n'; // print out temperature
 
